@@ -1,0 +1,24 @@
+{
+  "name": "makardjian-proxy",
+  "version": "1.0.0",
+  "description": "* this will be the proxy for my FEC project HRSF108",
+  "main": "proxy-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./proxy-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChampsOfTheSun/makardjian-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChampsOfTheSun/makardjian-proxy/issues"
+  },
+  "homepage": "https://github.com/ChampsOfTheSun/makardjian-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
