@@ -1,24 +1,27 @@
 {
-  "name": "makardjian-proxy",
+  "name": "jhods16-proxy",
   "version": "1.0.0",
-  "description": "* this will be the proxy for my FEC project HRSF108",
-  "main": "proxy-server.js",
+  "description": "> Project description",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./proxy-server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChampsOfTheSun/makardjian-proxy.git"
+    "url": "git+https://github.com/ChampsOfTheSun/jhods16-proxy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChampsOfTheSun/makardjian-proxy/issues"
+    "url": "https://github.com/ChampsOfTheSun/jhods16-proxy/issues"
   },
-  "homepage": "https://github.com/ChampsOfTheSun/makardjian-proxy#readme",
+  "homepage": "https://github.com/ChampsOfTheSun/jhods16-proxy#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }

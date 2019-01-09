@@ -1,4 +1,7 @@
-#Product-Checkout-Container {
+.container {
   display: flex;
-  padding: 0 1.2rem 0 0.6rem;
+}
+
+#Checkout {
+  margin: 20px 10px 0px 20px
 }
